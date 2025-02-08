@@ -3,6 +3,12 @@
 Please see [CIRCT](https://github.com/llvm/circt) for the next generation FIRRTL compiler.
 Also see [the FIRRTL Spec](https://github.com/chipsalliance/firrtl-spec) and [Chisel](https://github.com/chipsalliance/chisel).
 
+
+## Generating chirrtl protobufs from firrtl files
+```
+./utils/bin/firrtl -i ../chisel-template/GCD.fir -X none --custom-transforms firrtl.transforms.WriteChPB
+```
+
 ---
 
 ### Citing Firrtl
