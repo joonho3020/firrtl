@@ -68,3 +68,4 @@ project/metals.sbt
 *~
 *#*#
 .vscode
+generated/**
